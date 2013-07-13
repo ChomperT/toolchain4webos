@@ -1,0 +1,572 @@
+AtomDictBase	atomdictbase.h	49
+COARSE_UTC	userdict.h	/^#define COARSE_UTC(year, month, day, hour, minute,/
+DictBuilder	dictbuilder.h	36
+DictBuilder	dictbuilder.h	/^  DictBuilder();$/
+DictList	dictlist.h	29
+DictList	dictlist.h	/^  DictList();$/
+DictTrie	dicttrie.h	28
+DictTrie	dicttrie.h	/^  DictTrie();$/
+KeyScoreType	dictdef.h	71
+LemmaEntry	dictdef.h	141
+LemmaIdType	dictdef.h	66
+LmaNodeGE1	dictdef.h	124
+LmaNodeLE0	dictdef.h	112
+LmaScoreType	dictdef.h	70
+LpiCache	lpicache.h	27
+LpiCache	lpicache.h	/^  LpiCache();$/
+MatrixNode	matrixsearch.h	57
+MatrixSearch	matrixsearch.h	125
+MatrixSearch::c_phrase_	matrixsearch.h	221
+MatrixSearch::dep_	matrixsearch.h	201
+MatrixSearch::dict_trie_	matrixsearch.h	171
+MatrixSearch::dmi_c_phrase_	matrixsearch.h	226
+MatrixSearch::dmi_pool_	matrixsearch.h	196
+MatrixSearch::dmi_pool_used_	matrixsearch.h	197
+MatrixSearch::fixed_hzs_	matrixsearch.h	234
+MatrixSearch::fixed_lmas_	matrixsearch.h	210
+MatrixSearch::fixed_lmas_no1_	matrixsearch.h	218
+MatrixSearch::inited_	matrixsearch.h	157
+MatrixSearch::kDmiPoolSize	matrixsearch.h	154
+MatrixSearch::kMaxLmaPsbItems	matrixsearch.h	141
+MatrixSearch::kMaxNodeARow	matrixsearch.h	144
+MatrixSearch::kMaxSentenceLength	matrixsearch.h	148
+MatrixSearch::kMtrxNdPoolSize	matrixsearch.h	151
+MatrixSearch::kOnlyUserDictPredict	matrixsearch.h	138
+MatrixSearch::kPredictLimitGt1	matrixsearch.h	129
+MatrixSearch::kPreferLongHistoryPredict	matrixsearch.h	134
+MatrixSearch::lma_id_	matrixsearch.h	209
+MatrixSearch::lma_id_num_	matrixsearch.h	207
+MatrixSearch::lma_start_	matrixsearch.h	208
+MatrixSearch::lpi_items_	matrixsearch.h	241
+MatrixSearch::lpi_total_	matrixsearch.h	242
+MatrixSearch::matrix_	matrixsearch.h	199
+MatrixSearch::max_hzs_len_	matrixsearch.h	183
+MatrixSearch::max_sps_len_	matrixsearch.h	180
+MatrixSearch::mtrx_nd_pool_	matrixsearch.h	194
+MatrixSearch::mtrx_nd_pool_used_	matrixsearch.h	195
+MatrixSearch::npre_items_	matrixsearch.h	203
+MatrixSearch::npre_items_len_	matrixsearch.h	204
+MatrixSearch::pys_	matrixsearch.h	186
+MatrixSearch::pys_decoded_len_	matrixsearch.h	189
+MatrixSearch::share_buf_	matrixsearch.h	192
+MatrixSearch::spl_id_	matrixsearch.h	232
+MatrixSearch::spl_id_num_	matrixsearch.h	230
+MatrixSearch::spl_parser_	matrixsearch.h	177
+MatrixSearch::spl_start_	matrixsearch.h	231
+MatrixSearch::spl_trie_	matrixsearch.h	160
+MatrixSearch::user_dict_	matrixsearch.h	174
+MatrixSearch::xi_an_enabled_	matrixsearch.h	168
+MileStone	dicttrie.h	53
+MileStoneHandle	searchutility.h	29
+NGram	ngram.h	30
+NGram	ngram.h	/^  NGram();$/
+PDictExtPara	searchutility.h	109
+PDictMatchInfo	matrixsearch.h	55
+PINYINIME_ANDPY_INCLUDE_LPICACHE_H__	lpicache.h	18
+PINYINIME_ANDPY_INCLUDE_MATRIXSEARCH_H__	matrixsearch.h	18
+PINYINIME_ANDPY_INCLUDE_SEARCHCOMMON_H__	searchutility.h	18
+PINYINIME_INCLUDE_ANDPYIME_H__	pinyinime.h	18
+PINYINIME_INCLUDE_ATOMDICTBASE_H__	atomdictbase.h	42
+PINYINIME_INCLUDE_DICTBUILDER_H__	dictbuilder.h	18
+PINYINIME_INCLUDE_DICTDEF_H__	dictdef.h	18
+PINYINIME_INCLUDE_DICTLIST_H__	dictlist.h	18
+PINYINIME_INCLUDE_DICTTRIE_H__	dicttrie.h	18
+PINYINIME_INCLUDE_MYSTDLIB_H__	mystdlib.h	18
+PINYINIME_INCLUDE_NGRAM_H__	ngram.h	18
+PINYINIME_INCLUDE_SPELLINGTABLE_H__	spellingtable.h	18
+PINYINIME_INCLUDE_SPELLINGTRIE_H__	spellingtrie.h	18
+PINYINIME_INCLUDE_SPLPARSER_H__	splparser.h	18
+PINYINIME_INCLUDE_SYNC_H__	sync.h	18
+PINYINIME_INCLUDE_USERDICT_H__	userdict.h	18
+PINYINIME_INCLUDE_UTF16CHAR_H__	utf16char.h	18
+PINYINIME_INCLUDE_UTF16READER_H__	utf16reader.h	18
+PLmaPsbItem	searchutility.h	39
+PLmaPsbStrItem	searchutility.h	45
+PMatrixNode	matrixsearch.h	64
+PMatrixRow	matrixsearch.h	102
+PNPredictItem	searchutility.h	52
+PRawSpelling	spellingtable.h	32
+PSpellingId	dictdef.h	93
+ParsingMark	dicttrie.h	30
+PoolPosType	searchutility.h	26
+SingleCharItem	dictdef.h	135
+SpellingNode	spellingtrie.h	29
+SpellingParser	splparser.h	25
+SpellingParser	splparser.h	/^  SpellingParser();$/
+SpellingTable	spellingtable.h	38
+SpellingTable::average_score_	spellingtable.h	61
+SpellingTable::frozen_	spellingtable.h	64
+SpellingTable::kNotSupportList	spellingtable.h	41
+SpellingTable::kNotSupportNum	spellingtable.h	40
+SpellingTable::need_score_	spellingtable.h	43
+SpellingTable::raw_spellings_	spellingtable.h	47
+SpellingTable::score_amplifier_	spellingtable.h	59
+SpellingTable::spelling_buf_	spellingtable.h	52
+SpellingTable::spelling_max_num_	spellingtable.h	45
+SpellingTable::spelling_num_	spellingtable.h	57
+SpellingTable::spelling_size_	spellingtable.h	53
+SpellingTable::total_freq_	spellingtable.h	55
+SpellingTrie	spellingtrie.h	39
+SpellingTrie::average_score_	spellingtrie.h	72
+SpellingTrie::char_flags_	spellingtrie.h	55
+SpellingTrie::dumb_node_	spellingtrie.h	97
+SpellingTrie::f2h_	spellingtrie.h	115
+SpellingTrie::h2f_num_	spellingtrie.h	112
+SpellingTrie::h2f_start_	spellingtrie.h	111
+SpellingTrie::instance_	spellingtrie.h	56
+SpellingTrie::is_same_spl_char	spellingtrie.h	/^  inline static bool is_same_spl_char(char ch1, ch/
+SpellingTrie::is_valid_spl_char	spellingtrie.h	/^  inline static bool is_valid_spl_char(char ch) {$/
+SpellingTrie::kHalfId2Sc_	spellingtrie.h	53
+SpellingTrie::kHalfIdShengmuMask	spellingtrie.h	44
+SpellingTrie::kHalfIdSzmMask	spellingtrie.h	46
+SpellingTrie::kHalfIdYunmuMask	spellingtrie.h	45
+SpellingTrie::kMaxYmNum	spellingtrie.h	41
+SpellingTrie::kValidSplCharNum	spellingtrie.h	42
+SpellingTrie::level1_sons_	spellingtrie.h	104
+SpellingTrie::node_num_	spellingtrie.h	119
+SpellingTrie::root_	spellingtrie.h	93
+SpellingTrie::score_amplifier_	spellingtrie.h	71
+SpellingTrie::spelling_buf_	spellingtrie.h	59
+SpellingTrie::spelling_num_	spellingtrie.h	69
+SpellingTrie::spelling_size_	spellingtrie.h	66
+SpellingTrie::spl_ym_ids_	spellingtrie.h	78
+SpellingTrie::splitter_node_	spellingtrie.h	101
+SpellingTrie::splstr16_queried_	spellingtrie.h	90
+SpellingTrie::splstr_queried_	spellingtrie.h	87
+SpellingTrie::ym_buf_	spellingtrie.h	82
+SpellingTrie::ym_num_	spellingtrie.h	84
+SpellingTrie::ym_size_	spellingtrie.h	83
+Sync	sync.h	39
+Sync	sync.h	/^  Sync();$/
+TComposingPhrase	matrixsearch.h	123
+USER_DICT_CACHE	userdict.h	249
+USER_DICT_DEFRAGMENTED	userdict.h	236
+USER_DICT_LEMMA_DIRTY	userdict.h	234
+USER_DICT_MISS_CACHE	userdict.h	250
+USER_DICT_NONE	userdict.h	227
+USER_DICT_OFFSET_DIRTY	userdict.h	233
+USER_DICT_SCORE_DIRTY	userdict.h	232
+USER_DICT_SYNC	userdict.h	228
+USER_DICT_SYNC_DIRTY	userdict.h	230
+UserDict	userdict.h	33
+UserDict	userdict.h	/^  UserDict();$/
+UserDictCache	userdict.h	261
+UserDictCacheType	userdict.h	248
+UserDictInfo	userdict.h	196
+UserDictMissCache	userdict.h	256
+UserDictScoreOffsetPair	userdict.h	390
+UserDictSearchable	userdict.h	239
+UserDictStat	userdict.h	124
+UserDictState	userdict.h	225
+Utf16Reader	utf16reader.h	25
+Utf16Reader	utf16reader.h	/^  Utf16Reader();$/
+___BUILD_MODEL___	dictdef.h	27
+___CACHE_ENABLED___	userdict.h	20
+___DO_STATISTICS___	dictbuilder.h	32
+___PREDICT_ENABLED___	userdict.h	22
+___SYNC_ENABLED___	sync.h	20
+___SYNC_ENABLED___	userdict.h	21
+_get_lemma_score	userdict.h	/^  int _get_lemma_score(char16 lemma_str[], uint16 /
+_get_lemma_score	userdict.h	/^  int _get_lemma_score(LemmaIdType lemma_id);$/
+_get_lpis	userdict.h	/^  size_t _get_lpis(const uint16 *splid_str, uint16/
+_put_lemma	userdict.h	/^  LemmaIdType _put_lemma(char16 lemma_str[], uint1/
+all_full_id	matrixsearch.h	54
+alloc_resource	dictbuilder.h	/^  bool alloc_resource(size_t lma_num);$/
+alloc_resource	dictlist.h	/^  bool alloc_resource(size_t buf_size, size_t scim/
+append_a_lemma	userdict.h	/^  LemmaIdType append_a_lemma(char16 lemma_str[], u/
+begin	sync.h	/^  bool begin(const char * filename);$/
+buf_	dictlist.h	41
+buffer_	utf16reader.h	28
+buffer_next_pos_	utf16reader.h	30
+buffer_total_len_	utf16reader.h	29
+buffer_valid_len_	utf16reader.h	33
+build_dict	dictbuilder.h	/^  bool build_dict(const char* fn_raw, const char* /
+build_dict	dicttrie.h	/^  bool build_dict(const char *fn_raw, const char */
+build_scis	dictbuilder.h	/^  size_t build_scis();$/
+build_score	userdict.h	/^  inline int build_score(uint64 lmt, int freq);$/
+build_unigram	ngram.h	/^  bool build_unigram(LemmaEntry *lemma_arr, size_t/
+c_phrase	matrixsearch.h	44
+cache_hit	userdict.h	/^  bool cache_hit(UserDictSearchable *searchable,$/
+cache_init	userdict.h	/^  void cache_init();$/
+cache_push	userdict.h	/^  void cache_push(UserDictCacheType type,$/
+caches_	userdict.h	267
+calculate_size	dictlist.h	/^  size_t calculate_size(const LemmaEntry *lemma_ar/
+char	ngram.h	26
+char16	utf16char.h	29
+char_this_node	spellingtrie.h	35
+chn_str	matrixsearch.h	119
+clear_last_got	sync.h	/^  void clear_last_got();$/
+clear_sync_lemmas	userdict.h	/^  void clear_sync_lemmas(unsigned int start, unsig/
+close	utf16reader.h	/^  bool close();$/
+close_dict	dicttrie.h	/^  bool close_dict() {return true;}$/
+close_dict	userdict.h	/^  bool close_dict();$/
+cmp_func_	dictlist.h	/^  int (*cmp_func_[kMaxLemmaSize])(const void *, co/
+construct_subset	dictbuilder.h	/^  bool construct_subset(void* parent, LemmaEntry* /
+convert_psb_to_score	ngram.h	/^  static float convert_psb_to_score(double psb);$/
+convert_to_hanzis	dictlist.h	/^  void convert_to_hanzis(char16 *str, uint16 str_l/
+convert_to_hanzis	dicttrie.h	/^  void convert_to_hanzis(char16 *str, uint16 str_l/
+convert_to_scis_ids	dictlist.h	/^  void convert_to_scis_ids(char16 *str, uint16 str/
+convert_to_scis_ids	dicttrie.h	/^  void convert_to_scis_ids(char16 *str, uint16 str/
+defragment	userdict.h	/^  void defragment();$/
+delete_count	userdict.h	132
+delete_size	userdict.h	133
+dict_file_	userdict.h	193
+dict_handles	matrixsearch.h	33
+dict_info_	userdict.h	218
+dict_level	matrixsearch.h	42
+dict_list_	dicttrie.h	58
+dictfile_	sync.h	77
+disk_size	userdict.h	129
+dmi_fr	matrixsearch.h	35
+dmi_fr	matrixsearch.h	62
+dmi_has_full_id	matrixsearch.h	98
+dmi_num	matrixsearch.h	72
+dmi_pos	matrixsearch.h	70
+equal_spell_id	userdict.h	/^  bool equal_spell_id(const uint16 * fullids,$/
+ext_len	searchutility.h	87
+extend_dict	dicttrie.h	/^  MileStoneHandle extend_dict(MileStoneHandle from/
+extend_dict	userdict.h	/^  MileStoneHandle extend_dict(MileStoneHandle from/
+extend_dict0	dicttrie.h	/^  MileStoneHandle extend_dict0(MileStoneHandle fro/
+extend_dict1	dicttrie.h	/^  MileStoneHandle extend_dict1(MileStoneHandle fro/
+extend_dict2	dicttrie.h	/^  MileStoneHandle extend_dict2(MileStoneHandle fro/
+extract_score_freq	userdict.h	/^  int extract_score_freq(int raw_score);$/
+extract_score_lmt	userdict.h	/^  uint64 extract_score_lmt(int raw_score);$/
+file_name	userdict.h	126
+fill_list	dictlist.h	/^  void fill_list(const LemmaEntry *lemma_arr, size/
+fill_lpi_buffer	dicttrie.h	/^  size_t fill_lpi_buffer(LmaPsbItem lpi_items[], s/
+fill_lpi_buffer	dicttrie.h	/^  size_t fill_lpi_buffer(LmaPsbItem lpi_items[], s/
+fill_scis	dictlist.h	/^  void fill_scis(const SingleCharItem *scis, size_/
+find_pos2_startedbyhz	dictlist.h	/^  char16* find_pos2_startedbyhz(char16 hz_char);$/
+find_pos_startedbyhzs	dictlist.h	/^  char16* find_pos_startedbyhzs(const char16 last_/
+finish	sync.h	/^  void finish();$/
+first_son	spellingtrie.h	30
+flush_cache	dicttrie.h	/^  void flush_cache() {}$/
+flush_cache	userdict.h	/^  void flush_cache();$/
+format_spelling_str	dictbuilder.h	/^  void format_spelling_str(char *spl_str);$/
+fp_	utf16reader.h	27
+free_count	userdict.h	211
+free_resource	dictbuilder.h	/^  void free_resource();$/
+free_resource	dictlist.h	/^  void free_resource();$/
+free_resource	dicttrie.h	/^  void free_resource(bool free_dict_list);$/
+free_size	userdict.h	213
+freq	dictdef.h	136
+freq	dictdef.h	152
+freq	spellingtable.h	31
+freq_codes_	ngram.h	64
+freq_codes_df_	ngram.h	62
+from	matrixsearch.h	60
+full_splid	dictdef.h	92
+fuzzy_compare_spell_id	userdict.h	/^  int32 fuzzy_compare_spell_id(const uint16 * id1,/
+get_cache	lpicache.h	/^  size_t get_cache(uint16 splid, LmaPsbItem lpi_it/
+get_capacity	sync.h	/^  int get_capacity();$/
+get_dict_file_size	userdict.h	/^  uint32 get_dict_file_size(UserDictInfo * info);$/
+get_homo_idx_buf_offset	dicttrie.h	/^  inline size_t get_homo_idx_buf_offset(const LmaN/
+get_instance	lpicache.h	/^  static LpiCache& get_instance();$/
+get_instance	ngram.h	/^  static NGram& get_instance();$/
+get_last_got_count	sync.h	/^  int get_last_got_count();$/
+get_lemma_flag	userdict.h	/^  char get_lemma_flag(uint32 offset);$/
+get_lemma_id	dictlist.h	/^  LemmaIdType get_lemma_id(const char16 *str, uint/
+get_lemma_id	dicttrie.h	/^  inline LemmaIdType get_lemma_id(size_t id_offset/
+get_lemma_id	dicttrie.h	/^  LemmaIdType get_lemma_id(char16 lemma_str[], uin/
+get_lemma_id	dicttrie.h	/^  LemmaIdType get_lemma_id(const char16 lemma_str[/
+get_lemma_id	userdict.h	/^  LemmaIdType get_lemma_id(char16 lemma_str[], uin/
+get_lemma_nchar	userdict.h	/^  char get_lemma_nchar(uint32 offset);$/
+get_lemma_score	dicttrie.h	/^  LmaScoreType get_lemma_score(LemmaIdType lemma_i/
+get_lemma_score	dicttrie.h	/^  LmaScoreType get_lemma_score(char16 lemma_str[],/
+get_lemma_score	userdict.h	/^  LmaScoreType get_lemma_score(LemmaIdType lemma_i/
+get_lemma_score	userdict.h	/^  LmaScoreType get_lemma_score(char16 lemma_str[],/
+get_lemma_spell_ids	userdict.h	/^  uint16 * get_lemma_spell_ids(uint32 offset);$/
+get_lemma_splids	dicttrie.h	/^  uint16 get_lemma_splids(LemmaIdType id_lemma, ui/
+get_lemma_splids	userdict.h	/^  uint16 get_lemma_splids(LemmaIdType id_lemma, ui/
+get_lemma_str	dictlist.h	/^  uint16 get_lemma_str(LemmaIdType id_hz, char16 */
+get_lemma_str	dicttrie.h	/^  uint16 get_lemma_str(LemmaIdType id_lemma, char1/
+get_lemma_str	userdict.h	/^  uint16 get_lemma_str(LemmaIdType id_lemma, char1/
+get_lemma_word	userdict.h	/^  uint16 * get_lemma_word(uint32 offset);$/
+get_lemmas	sync.h	/^  int get_lemmas(char16 * str, int size);$/
+get_lpis	dicttrie.h	/^  size_t get_lpis(const uint16 *splid_str, uint16 /
+get_lpis	userdict.h	/^  size_t get_lpis(const uint16 *splid_str, uint16 /
+get_max_lemma_id	userdict.h	/^  LemmaIdType get_max_lemma_id();$/
+get_son_offset	dicttrie.h	/^  inline size_t get_son_offset(const LmaNodeGE1 *n/
+get_splid_by_str	splparser.h	/^  uint16 get_splid_by_str(const char *splstr, uint/
+get_splid_by_str_f	splparser.h	/^  uint16 get_splid_by_str_f(const char *splstr, ui/
+get_splids_for_hanzi	dictlist.h	/^  uint16 get_splids_for_hanzi(char16 hanzi, uint16/
+get_splids_parallel	splparser.h	/^  uint16 get_splids_parallel(const char *splstr, u/
+get_sync_count	userdict.h	/^  int get_sync_count();$/
+get_sync_lemmas_in_utf16le_string_from_beginning	userdict.h	/^  int get_sync_lemmas_in_utf16le_string_from_begin/
+get_top_lemmas	dictbuilder.h	/^  void get_top_lemmas();$/
+get_total_count	sync.h	/^  int get_total_count();$/
+get_total_lemma_count	dicttrie.h	/^  size_t get_total_lemma_count() {return 0;}$/
+get_total_lemma_count	userdict.h	/^  size_t get_total_lemma_count();$/
+get_uni_psb	ngram.h	/^  float get_uni_psb(LemmaIdType lma_id);$/
+half_splid	dictdef.h	91
+hanzi	searchutility.h	38
+hanzi_scis_ids	dictdef.h	147
+hanzi_str	dictdef.h	144
+head	userdict.h	258
+head	userdict.h	266
+his_len	searchutility.h	51
+homo_idx_buf_	dictbuilder.h	59
+homo_idx_buf_off	dictdef.h	114
+homo_idx_buf_off_h	dictdef.h	131
+homo_idx_buf_off_l	dictdef.h	126
+homo_idx_num_eq1_	dictbuilder.h	61
+homo_idx_num_gt1_	dictbuilder.h	63
+hz	dictdef.h	137
+hz_in_hanzis_list	dictbuilder.h	/^  bool hz_in_hanzis_list(const char16 *hzs, size_t/
+hz_str_len	dictdef.h	151
+id	matrixsearch.h	58
+id	searchutility.h	/^  size_t id:(kLemmaIdSize * 8);$/
+id_num	searchutility.h	108
+id_start	searchutility.h	104
+id_to_charbuf	dictbuilder.h	/^  void id_to_charbuf(unsigned char *buf, LemmaIdTy/
+ids_	userdict.h	180
+idx_by_hz	dictdef.h	143
+idx_by_py	dictdef.h	142
+idx_num_	ngram.h	52
+ime_pinyin	matrixsearch.h	27
+ime_pinyin	spellingtable.h	23
+ime_pinyin	spellingtrie.h	24
+init_list	dictlist.h	/^  bool init_list(const SingleCharItem *scis, size_/
+initialized_	dictlist.h	31
+initialized_	ngram.h	51
+instance_	lpicache.h	29
+instance_	ngram.h	49
+int16	dictdef.h	34
+int32	dictdef.h	35
+int64	dictdef.h	36
+int8	dictdef.h	33
+is_cached	lpicache.h	/^  bool is_cached(uint16 splid);$/
+is_fuzzy_prefix_spell_id	userdict.h	/^  int is_fuzzy_prefix_spell_id(const uint16 * id1,/
+is_prefix_spell_id	userdict.h	/^  bool is_prefix_spell_id(const uint16 * fullids,$/
+is_valid_lemma_id	userdict.h	/^  bool is_valid_lemma_id(LemmaIdType id);$/
+is_valid_state	userdict.h	/^  bool is_valid_state();$/
+is_valid_to_parse	splparser.h	/^  bool is_valid_to_parse(char ch);$/
+last_count_	sync.h	78
+last_update	userdict.h	128
+lemma_arr_	dictbuilder.h	39
+lemma_count	userdict.h	130
+lemma_count	userdict.h	207
+lemma_count_left_	userdict.h	190
+lemma_num_	dictbuilder.h	40
+lemma_size	userdict.h	131
+lemma_size	userdict.h	209
+lemma_size_left_	userdict.h	191
+lemmas_	userdict.h	149
+length	matrixsearch.h	122
+lengths	userdict.h	264
+limit_lemma_count	userdict.h	138
+limit_lemma_count	userdict.h	200
+limit_lemma_size	userdict.h	139
+limit_lemma_size	userdict.h	204
+lma_freq_idx_	ngram.h	65
+lma_idx_buf_	dicttrie.h	81
+lma_idx_buf_len_	dicttrie.h	82
+lma_len	searchutility.h	34
+lma_nds_used_num_ge1_	dictbuilder.h	56
+lma_nds_used_num_le0_	dictbuilder.h	55
+lma_node_num_ge1_	dicttrie.h	77
+lma_node_num_le0_	dicttrie.h	76
+lma_nodes_ge1_	dictbuilder.h	52
+lma_nodes_le0_	dictbuilder.h	49
+load	userdict.h	/^  bool load(const char *file, LemmaIdType start_id/
+load_cache	userdict.h	/^  bool load_cache(UserDictSearchable *searchable,$/
+load_dict	dicttrie.h	/^  bool load_dict(FILE *fp);$/
+load_dict	dicttrie.h	/^  bool load_dict(const char *filename, LemmaIdType/
+load_dict	userdict.h	/^  bool load_dict(const char *file_name, LemmaIdTyp/
+load_dict_fd	dicttrie.h	/^  bool load_dict_fd(int sys_fd, long start_offset,/
+load_list	dictlist.h	/^  bool load_list(FILE *fp);$/
+load_miss_cache	userdict.h	/^  bool load_miss_cache(UserDictSearchable *searcha/
+load_ngram	ngram.h	/^  bool load_ngram(FILE *fp);$/
+load_time	userdict.h	127
+load_time_	userdict.h	146
+locate_first_in_offsets	userdict.h	/^  int32 locate_first_in_offsets(const UserDictSear/
+locate_first_in_predicts	userdict.h	/^  int32 locate_first_in_predicts(const uint16 * wo/
+locate_in_offsets	userdict.h	/^  int32 locate_in_offsets(char16 lemma_str[],$/
+locate_where_to_insert_in_predicts	userdict.h	/^  uint32 locate_where_to_insert_in_predicts(const /
+lpi	searchutility.h	43
+lpi_cache_	lpicache.h	32
+lpi_cache_len_	lpicache.h	33
+mark_num	dicttrie.h	55
+mark_start	dicttrie.h	54
+max_homobuf_len_	dictbuilder.h	74
+max_sonbuf_len_	dictbuilder.h	73
+mile_stones_	dicttrie.h	92
+mile_stones_pos_	dicttrie.h	95
+miss_caches_	userdict.h	259
+mtrx_nd_fixed	matrixsearch.h	101
+mtrx_nd_num	matrixsearch.h	71
+mtrx_nd_pos	matrixsearch.h	68
+node_num	dicttrie.h	32
+node_offset	dicttrie.h	31
+nodes_ge1_	dicttrie.h	63
+num_of_homo	dictdef.h	117
+num_of_homo	dictdef.h	129
+num_of_son	dictdef.h	116
+num_of_son	dictdef.h	128
+num_of_son	spellingtrie.h	34
+number_of_lemmas	dicttrie.h	/^  size_t number_of_lemmas() {return 0;}$/
+number_of_lemmas	userdict.h	/^  size_t number_of_lemmas();$/
+offset_index	userdict.h	392
+offsets	userdict.h	263
+offsets_	userdict.h	154
+offsets_by_id_	userdict.h	188
+open	utf16reader.h	/^  bool open(const char* filename, size_t buffer_le/
+parsing_marks_	dicttrie.h	87
+parsing_marks_pos_	dicttrie.h	89
+pinyin_str	dictdef.h	150
+pre_hzs	searchutility.h	50
+predict	dictlist.h	/^  size_t predict(const char16 last_hzs[], uint16 h/
+predict	dicttrie.h	/^  size_t predict(const char16 *last_hzs, uint16 hz/
+predict	userdict.h	/^  size_t predict(const char16 last_hzs[], uint16 h/
+predict_top_lmas	dicttrie.h	/^  size_t predict_top_lmas(size_t his_len, NPredict/
+predicts_	userdict.h	182
+prepare_locate	userdict.h	/^  void prepare_locate(UserDictSearchable *searchab/
+psb	searchutility.h	35
+psb	searchutility.h	49
+put_cache	lpicache.h	/^  size_t put_cache(uint16 splid, LmaPsbItem lpi_it/
+put_lemma	dicttrie.h	/^  LemmaIdType put_lemma(char16 lemma_str[], uint16/
+put_lemma	userdict.h	/^  LemmaIdType put_lemma(char16 lemma_str[], uint16/
+put_lemma_no_sync	userdict.h	/^  LemmaIdType put_lemma_no_sync(char16 lemma_str[]/
+put_lemmas	sync.h	/^  int put_lemmas(char16 * lemmas, int len);$/
+put_lemmas_no_sync_from_utf16le_string	userdict.h	/^  int put_lemmas_no_sync_from_utf16le_string(char1/
+queue_lemma_for_sync	userdict.h	/^  void queue_lemma_for_sync(LemmaIdType id);$/
+read_raw_dict	dictbuilder.h	/^  size_t read_raw_dict(const char* fn_raw, const c/
+read_valid_hanzis	dictbuilder.h	/^  char16* read_valid_hanzis(const char *fn_validhz/
+readline	utf16reader.h	/^  char16* readline(char16* read_buf, size_t max_le/
+reclaim	userdict.h	/^  void reclaim();$/
+reclaim_ratio	userdict.h	137
+reclaim_ratio	userdict.h	198
+remove_lemma	dicttrie.h	/^  bool remove_lemma(LemmaIdType lemma_id) {return /
+remove_lemma	userdict.h	/^  bool remove_lemma(LemmaIdType lemma_id);$/
+remove_lemma_by_offset_index	userdict.h	/^  bool remove_lemma_by_offset_index(int offset_ind/
+remove_lemma_from_predict_list	userdict.h	/^  void remove_lemma_from_predict_list(uint32 offse/
+remove_lemma_from_sync_list	userdict.h	/^  void remove_lemma_from_sync_list(uint32 offset);/
+reset	userdict.h	/^  bool reset(const char *file);$/
+reset_cache	userdict.h	/^  void reset_cache();$/
+reset_milestones	dicttrie.h	/^  void reset_milestones(uint16 from_step, MileSton/
+reset_milestones	userdict.h	/^  void reset_milestones(uint16 from_step, MileSton/
+reset_miss_cache	userdict.h	/^  void reset_miss_cache();$/
+root_	dicttrie.h	62
+save_cache	userdict.h	/^  void save_cache(UserDictSearchable *searchable,$/
+save_dict	dicttrie.h	/^  bool save_dict(FILE *fp);$/
+save_dict	dicttrie.h	/^  bool save_dict(const char *filename);$/
+save_list	dictlist.h	/^  bool save_list(FILE *fp);$/
+save_miss_cache	userdict.h	/^  void save_miss_cache(UserDictSearchable *searcha/
+save_ngram	ngram.h	/^  bool save_ngram(FILE *fp);$/
+scis_	dictbuilder.h	44
+scis_hz_	dictlist.h	37
+scis_num_	dictbuilder.h	45
+scis_num_	dictlist.h	36
+scis_splid_	dictlist.h	38
+score	matrixsearch.h	59
+score	spellingtrie.h	36
+score	userdict.h	391
+scores_	userdict.h	178
+set	CMakeLists.txt	/^set(GOOGLEPINYIN_HEADERS$/
+set_homo_id_buf_offset	dictbuilder.h	/^  void set_homo_id_buf_offset(LmaNodeGE1 *node, si/
+set_lemma_flag	userdict.h	/^  void set_lemma_flag(uint32 offset, uint8 flag);$/
+set_limit	userdict.h	/^  void set_limit(uint32 max_lemma_count, uint32 ma/
+set_son_offset	dictbuilder.h	/^  void set_son_offset(LmaNodeGE1 *node, size_t off/
+set_total_freq_none_sys	ngram.h	/^  void set_total_freq_none_sys(size_t freq_none_sy/
+set_total_lemma_count_of_others	dicttrie.h	/^  void set_total_lemma_count_of_others(size_t coun/
+set_total_lemma_count_of_others	userdict.h	/^  void set_total_lemma_count_of_others(size_t coun/
+shift_down	userdict.h	/^  void shift_down(UserDictScoreOffsetPair * sop, i/
+signature	userdict.h	244
+signatures	userdict.h	257
+signatures	userdict.h	262
+son_1st_off	dictdef.h	113
+son_1st_off_h	dictdef.h	130
+son_1st_off_l	dictdef.h	125
+sonbufs_num1_	dictbuilder.h	83
+sonbufs_numgt1_	dictbuilder.h	84
+sort_lemmas_by_hz	dictbuilder.h	/^  LemmaIdType sort_lemmas_by_hz();$/
+spelling_idx	spellingtrie.h	33
+spl_id	matrixsearch.h	39
+spl_ids	matrixsearch.h	117
+spl_idx	dictdef.h	115
+spl_idx	dictdef.h	127
+spl_idx_arr	dictdef.h	149
+spl_parser_	dictbuilder.h	70
+spl_start	matrixsearch.h	118
+spl_table_	dictbuilder.h	69
+spl_trie_	dictlist.h	33
+spl_trie_	dicttrie.h	60
+spl_trie_	splparser.h	27
+splid	dictdef.h	138
+splid_count	userdict.h	242
+splid_end_split	matrixsearch.h	46
+splid_end_split	searchutility.h	99
+splid_le0_index_	dicttrie.h	74
+splid_start	userdict.h	241
+splids	searchutility.h	79
+splids_extended	searchutility.h	83
+splids_len	userdict.h	240
+splstr16_to_idxs	splparser.h	/^  uint16 splstr16_to_idxs(const char16 *splstr, ui/
+splstr16_to_idxs_f	splparser.h	/^  uint16 splstr16_to_idxs_f(const char16 *splstr16/
+splstr_len	matrixsearch.h	49
+splstr_to_idxs	splparser.h	/^  uint16 splstr_to_idxs(const char *splstr, uint16/
+splstr_to_idxs_f	splparser.h	/^  uint16 splstr_to_idxs_f(const char *splstr, uint/
+start_id_	dictlist.h	47
+start_id_	userdict.h	147
+start_pos_	dictlist.h	45
+stat_init	dictbuilder.h	/^  void stat_init();$/
+stat_print	dictbuilder.h	/^  void stat_print();$/
+state	userdict.h	/^  bool state(UserDictStat * stat);$/
+step	matrixsearch.h	63
+step_no	searchutility.h	96
+str	searchutility.h	44
+str	spellingtable.h	30
+str_in_hanzis_list	dictbuilder.h	/^  bool str_in_hanzis_list(const char16 *hzs, size_/
+sublma_num	matrixsearch.h	121
+sublma_start	matrixsearch.h	120
+swap	userdict.h	/^  inline void swap(UserDictScoreOffsetPair * sop, /
+sync_count	userdict.h	135
+sync_count	userdict.h	215
+sync_count_size_	userdict.h	186
+syncs_	userdict.h	185
+sys_score_compensation_	ngram.h	59
+tail	userdict.h	258
+tail	userdict.h	266
+top_lmas_	dictbuilder.h	66
+top_lmas_num_	dictbuilder.h	67
+top_lmas_num_	dicttrie.h	84
+total_freq_none_sys_	ngram.h	54
+total_homo_num_	dictbuilder.h	81
+total_lma_node_num_	dictbuilder.h	86
+total_lma_num_	dicttrie.h	83
+total_nfreq	userdict.h	217
+total_node_hasson_	dictbuilder.h	77
+total_node_in_sonbuf_allnoson_	dictbuilder.h	80
+total_other_nfreq_	userdict.h	145
+total_son_num_	dictbuilder.h	76
+total_sonbuf_allnoson_	dictbuilder.h	79
+total_sonbuf_num_	dictbuilder.h	78
+translate_score	userdict.h	/^  LmaScoreType translate_score(int f);$/
+try_extend	dicttrie.h	/^  bool try_extend(const uint16 *splids, uint16 spl/
+uint16	dictdef.h	30
+uint32	dictdef.h	31
+uint64	dictdef.h	37
+uint8	dictdef.h	29
+update_lemma	dicttrie.h	/^  LemmaIdType update_lemma(LemmaIdType lemma_id, i/
+update_lemma	userdict.h	/^  LemmaIdType update_lemma(LemmaIdType lemma_id, i/
+userdict_	sync.h	76
+utf16le_atoll	userdict.h	/^  inline int64 utf16le_atoll(uint16 *s, int len);$/
+utf16le_lltoa	userdict.h	/^  inline int utf16le_lltoa(int64 v, uint16 *s, int/
+validate	userdict.h	/^  bool validate(const char *file);$/
+version	userdict.h	125
+version_	userdict.h	148
+write_back	userdict.h	/^  void write_back();$/
+write_back_all	userdict.h	/^  void write_back_all(int fd);$/
+write_back_lemma	userdict.h	/^  void write_back_lemma(int fd);$/
+write_back_offset	userdict.h	/^  void write_back_offset(int fd);$/
+write_back_score	userdict.h	/^  void write_back_score(int fd);$/
+write_back_sync	userdict.h	/^  void write_back_sync(int fd);$/
+~AtomDictBase	atomdictbase.h	/^  virtual ~AtomDictBase() {}$/
+~DictBuilder	dictbuilder.h	/^  ~DictBuilder();$/
+~DictList	dictlist.h	/^  ~DictList();$/
+~DictTrie	dicttrie.h	/^  ~DictTrie();$/
+~LpiCache	lpicache.h	/^  ~LpiCache();$/
+~NGram	ngram.h	/^  ~NGram();$/
+~Sync	sync.h	/^  ~Sync();$/
+~UserDict	userdict.h	/^  ~UserDict();$/
+~Utf16Reader	utf16reader.h	/^  ~Utf16Reader();$/
